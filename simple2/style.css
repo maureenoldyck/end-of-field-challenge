@@ -1,5 +1,9 @@
 
 
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
 
 a {
     text-decoration: none;
@@ -7,12 +11,12 @@ a {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 400;
 }
 
 ul {
     list-style-type: none;
-    margin: 5;
   padding: 0;
 }
 
@@ -26,10 +30,43 @@ li {
     margin: 25px;
 }
 
+.container > * {
+    padding: 3px;
+}
+
 .navigation li {
-    padding: 14px 16px;
+    padding: 14px 10px;
+    font-weight: 700;
 }
 
 .links li {
     padding: 14px 5px;
+}
+
+
+img {
+    max-width: 30px;
+}
+
+.circle6 {
+    background-color: yellow;
+    text-align: center;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 14px;
+}
+
+
+.circle3 {
+    background-color: turquoise;
+    text-align: center;
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 14px;
 }
