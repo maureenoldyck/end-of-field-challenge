@@ -1,4 +1,6 @@
 .containers {
+width: 1230px;
+height: 676px;
 background-color: #f1eee9;
 display: grid;
 grid-template: "left top"
@@ -6,17 +8,34 @@ grid-template: "left top"
 }
 
 .left-container {
+    margin: auto auto;
     width: 595px;
+    height: 654px;
     grid-area: left;
     background-color: #2e3238;
-    color:#cbcbcd;
+    color:#fefefe;
     text-align: center;
+    display: table;
+    font-family: 'EB Garamond', serif;
+}
+
+
+.text1 {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 35px;
+    padding: 0 120px;
+}
+
+.quote {
+    margin: 0;
+    padding: 0;
 }
 
 .button {
-    border:1px solid #c6ad9c;
+    border:1px solid#fefefe;
     background-color: #2e3238;
-    color:#cbcbcd;
+    color:#fefefe;
     padding: 15px 32px;
     text-decoration: none;
     display: inline-block;
@@ -26,6 +45,7 @@ grid-template: "left top"
 }
 
 .right-containers {
+    margin: auto auto;
     max-width: 595px;
 }
 
@@ -39,10 +59,20 @@ overflow: hidden;
 .right-bottomcontainer {
     height: 229px;
     grid-area: bottom;
-    color: #d4c1b4;
+    color: #ede5e1;
 background-color: #9d7255;
+display: table;
 text-align: center;
-justify-self: center;
-align-self:center;
+margin: 5px;
+font-family: 'Open Sans', sans-serif;
+font-size: 17px;
+word-spacing: 3px;
+
 }
 
+.right-bottomcontainer  p{
+    text-align: left;
+    vertical-align: middle;
+    display: table-cell;   
+padding: 0 100px;
+}
