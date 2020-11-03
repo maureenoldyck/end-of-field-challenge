@@ -35,6 +35,7 @@ li {
 }
 
 .navigation li {
+    margin-left: -5px;
     padding: 14px 10px;
     font-weight: 700;
 }
