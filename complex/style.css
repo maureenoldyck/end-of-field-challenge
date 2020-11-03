@@ -28,8 +28,8 @@ grid-template: "left top"
 }
 
 .quote {
-    margin: 0;
-    padding: 0;
+    font-size: 70px;
+    line-height: 0px;
 }
 
 .button {
@@ -46,17 +46,15 @@ grid-template: "left top"
 
 .right-containers {
     margin: auto auto;
-    max-width: 595px;
+    width: 595px;
 }
 
 .right-topcontainer {
-    height: 412px;
 grid-area: top;
-object-fit: fill;
-overflow: hidden;
 }
 
 .right-bottomcontainer {
+    width: 587px;
     height: 229px;
     grid-area: bottom;
     color: #ede5e1;
@@ -68,6 +66,12 @@ font-family: 'Open Sans', sans-serif;
 font-size: 17px;
 word-spacing: 3px;
 
+}
+
+img {
+width: 587px;
+height: 415px;
+object-fit: cover;
 }
 
 .right-bottomcontainer  p{
