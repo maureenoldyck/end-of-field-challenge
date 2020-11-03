@@ -7,7 +7,7 @@
 }
 
 .containers {
-    width: 1222px;
+    width: 1230px;
     height: 673px;
     background-color: #f1eee9;
     display: grid;
@@ -19,7 +19,7 @@
 
 .left-container {
     width: 600px;
-    height: 656px;
+    height: 654px;
     grid-area: left;
     background-color: #2e3238;
     color: #fefefe;

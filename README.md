@@ -7,7 +7,6 @@ This challenge is to evaluate our learnings of the first month in the Junior Dev
 We had to built two full integrations which randomness has assigned to us. Each one of us had been assigned two simple interfaces, and a more complex one. We could choose to build the two simple ones, or one simple AND the complex one. The result had to be pixel-perfect and we weren't allowed to use any css frameworks.
 
 <br>
-<br>
 
 
 ## 💻 Details 
@@ -18,7 +17,6 @@ We had to built two full integrations which randomness has assigned to us. Each 
 - Deployment strategy: GitHub Pages
 - Build with: Visual Studio Code (HTML, CSS, Markdown), CSS grids, Colorpicker & Google.
 
-<br>
 <br>
 
 
