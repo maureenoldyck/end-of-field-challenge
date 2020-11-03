@@ -1,11 +1,8 @@
+/*** ALL ***/
+
 * {
     margin:0;
     padding: 0;
-}
-
-
-body {
-    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -13,20 +10,26 @@ a {
     color: black;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 h1 {
     font-size: 17px;
     font-weight: 400;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
 }
 
 li {
     display: inline;
     color: black;
     text-align: left;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 
@@ -39,6 +42,10 @@ li {
     padding: 14px;
 }
 
+
+/** Navigation Links **/
+
+
 .navigation li {
     margin-left: -10px;
     padding: 15px 10px;
@@ -46,11 +53,16 @@ li {
     font-size: 14px;
 }
 
+
+/*** Social Media Links **/
+
 .links li {
     margin-left: -10px;
     padding: 14px 8px;
     font-size: 12px;
 }
+
+/*** Coloured circles layout***/
 
 .circle6 {
     background-color: yellow;
