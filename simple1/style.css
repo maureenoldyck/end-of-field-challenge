@@ -1,0 +1,45 @@
+#mockup {
+  width: 284px;
+  height: 417px;
+  background-image: url("images/interface.10.png");
+
+  opacity: 0.5;
+  z-index: 10;
+  pointer-events: none;
+}
+
+body {
+    color: #1c152e;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
+
+
+.table {
+    max-width: 417px;
+    padding: 5px 20px;
+}
+
+h1 {
+   font-weight: 700;
+}
+
+ul {
+    background-color: #e7ecf4;
+    list-style: none;
+    padding: 20px;
+}
+
+ul li {
+    margin: 5px;
+    font-weight: 500;
+}
+
+
+.fa-check {
+    padding-right: 10px;
+}
+
+.break {
+    padding-left: 25px;
+}
