@@ -98,3 +98,21 @@ img {
     display: table-cell;
     padding: 0 100px;
 }
+
+
+/** Media Queries **/
+@media screen and (max-width: 700px) {
+    .containers {
+        display: grid;
+        grid-template: "left"
+            "top"
+            "bottom";
+    }
+
+    .left-container,
+    .right-bottomcontainer,
+    img {
+        width: 100%;
+    }
+
+}
