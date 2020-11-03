@@ -7,8 +7,8 @@
 }
 
 .containers {
-    width: 1173px;
-    height: 647px;
+    width: 1222px;
+    height: 673px;
     background-color: #f1eee9;
     display: grid;
     grid-template: "left top"
@@ -18,8 +18,8 @@
 /*** LEFT SIDE ***/
 
 .left-container {
-    width: 571px;
-    height: 626px;
+    width: 600px;
+    height: 650px;
     grid-area: left;
     background-color: #2e3238;
     color: #fefefe;
@@ -31,24 +31,24 @@
 
 .quote {
     font-size: 70px;
-    line-height: 0px;
 }
 
 .text1 {
     display: table-cell;
     vertical-align: middle;
-    font-size: 35px;
+    font-size: 38px;
     padding: 0 120px;
+    line-height: 40px;
 }
 
 .button {
     border: 1px solid#9c9ca0;
     background-color: #2e3238;
     color: #fefefe;
-    padding: 15px 32px;
+    padding: 20px 30px;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 35px;
     cursor: pointer;
 }
@@ -69,8 +69,8 @@
 }
 
 img {
-    width: 571px;
-    height: 396px;
+    width: 600px;
+    height: 417px;
     object-fit: cover;
 }
 
@@ -78,8 +78,8 @@ img {
 
 .right-bottomcontainer {
     margin-top: 5px;
-    width: 571px;
-    height: 219px;
+    width: 600px;
+    height: 229px;
     grid-area: bottom;
     color: #ede5e1;
     background-color: #9d7255;
