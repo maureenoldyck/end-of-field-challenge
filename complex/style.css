@@ -41,14 +41,14 @@ grid-template: "left top"
 }
 
 .button {
-    border:1px solid#fefefe;
+    border:1px solid#9c9ca0;
     background-color: #2e3238;
     color:#fefefe;
     padding: 15px 32px;
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
-    margin: 14px 2px;
+    margin-top: 35px;
     cursor: pointer;
 }
 
