@@ -2,16 +2,17 @@ body {
     color: #1c152e;
     font-family: 'Roboto', sans-serif;
     line-height: 25px;
+   
 }
 
 .table {
     max-width: 417px;
-    max-height: 283px;
-    border-radius: 15px;
+    max-height: 295px;
 }
 
 h1 {
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 ul {
@@ -22,7 +23,8 @@ li {
     font-weight: 500;
     margin: 2px 0;
     background-color: #e7ecf4;
-    padding: 10px 25px;
+    padding: 10px 20px;
+
 }
 
 .fa-check {
